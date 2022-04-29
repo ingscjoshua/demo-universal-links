@@ -1,7 +1,7 @@
 var express = require('express') //llamamos a Express
 var app = express()
 
-var port = process.env.PORT || 80  // establecemos nuestro puerto
+var port = process.env.PORT || 8081  // establecemos nuestro puerto
 
 app.get('/', function(req, res) {
     res.json({ mensaje: '¡Hola Mundo!' })
